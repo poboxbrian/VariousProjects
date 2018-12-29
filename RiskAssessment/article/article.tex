@@ -1,0 +1,79 @@
+\documentclass[review]{elsarticle}
+\usepackage{microtype,blindtext,enumitem}
+\usepackage[osf]{libertine}
+\usepackage[english]{babel}
+
+\makeatletter
+\def\ps@pprintTitle{%
+ \let\@oddhead\@empty
+ \let\@evenhead\@empty
+ \def\@oddfoot{}%
+ \let\@evenfoot\@oddfoot}
+\makeatother
+
+\journal{Journal of CancerIQ}
+
+\begin{document}
+
+\begin{frontmatter}
+
+\title{A method for evaluating Smith Syndrome cancer risk}
+
+\author{Professor CancerIQ}
+\address{541 N Fairbanks Ct, 22nd Floor, Chicago, IL 60611}
+\ead[url]{www.canceriq.com}
+
+\begin{abstract}
+This is an entirely fake cancer risk model and should never be used for anything other than the CancerIQ coding challenge.
+\end{abstract}
+
+\end{frontmatter}
+
+\section{Description of some research}
+
+\blindtext[2]
+
+\section{Our risk model}
+
+\blindtext[1]
+
+\subsection*{Testing criteria}
+\begin{itemize}[noitemsep]
+
+    \item An individual with a Smith Syndrome cancer\footnote{Smith Syndrome
+    cancers include breast, colorectal, brain, endometrial, and kidney
+    cancer.} meeting any of the following:
+
+    \begin{itemize}[noitemsep, nolistsep]
+        \item Smith Syndrome cancer diagnosed at or before age 60,
+        \item An additional synchronous or metachronous Smith Syndrome
+        cancer,
+        \item One or more first-degree relatives with a Smith Syndrome
+        cancer diagnosed at or before age 50, or
+        \item Two or more first- or second-degree relatives with Smith
+        Syndrome cancer or gastric cancer diagnosed at any age.
+
+    \end{itemize}
+
+    \item An individual with no personal history of a Smith Syndrome cancer,
+        but with a close relative\footnote{Close relatives include first-,
+        second-, or third-degree relatives.} with any of the following:
+
+    \begin{itemize}[noitemsep, nolistsep]
+
+        \item Two or more relatives with Smith Syndrome cancers, one diagnosed
+        at or before age 50, or
+        \item Male breast cancer.
+
+    \end{itemize}
+
+    \item A close relative meeting any of the above criteria.
+
+\end{itemize}
+
+\section{Some statistics and comparisons to other research}
+
+\blindtext[2]
+
+\end{document}
+

@@ -1,0 +1,38 @@
+{
+    "id": "patient",
+    "gender": "female",
+    "motherId": "mom",
+    "fatherId": "dad",
+    "family": [{
+            "id": "mom",
+            "gender": "female",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "mother"
+        },
+        {
+            "id": "dad",
+            "gender": "male",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "father"
+        },
+        {
+            "id": "stepmom",
+            "gender": "female",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "other"
+        },
+        {
+            "id": "halfbro",
+            "gender": "male",
+            "motherId": "stepmom",
+            "fatherId": "dad",
+            "relationship": "paternal half brother",
+            "cancers": [{
+                "cancerType": "breast"
+            }]
+        }
+    ]
+}

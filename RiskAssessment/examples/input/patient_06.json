@@ -1,0 +1,44 @@
+{
+    "id": "patient",
+    "gender": "female",
+    "motherId": "mom",
+    "fatherId": "dad",
+    "cancers": [{
+        "cancerType": "endometrial"
+    }],
+    "family": [{
+            "id": "mom",
+            "gender": "female",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "mother"
+        },
+        {
+            "id": "dad",
+            "gender": "male",
+            "motherId": "grandma",
+            "fatherId": "grandpa",
+            "relationship": "father"
+        },
+        {
+            "id": "grandpa",
+            "gender": "male",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "paternal grandfather",
+            "cancers": [{
+                "cancerType": "gastric"
+            }]
+        },
+        {
+            "id": "grandma",
+            "gender": "female",
+            "motherId": null,
+            "fatherId": null,
+            "relationship": "paternal grandmother",
+            "cancers": [{
+                "cancerType": "kidney"
+            }]
+        }
+    ]
+}
